@@ -36,7 +36,7 @@ export function multiply(x, y) {
 }
 
 export function divide(x, y) {
-  return parseInt(x / y);
+  return parseFloat(x / y).toFixed(2);
 }
 
 export function head(list) {
